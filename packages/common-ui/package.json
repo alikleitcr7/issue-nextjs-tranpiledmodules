@@ -1,0 +1,26 @@
+{
+  "name": "@products/common-ui",
+  "version": "0.0.0",
+  "main": "./src/index.tsx",
+  "types": "./src/index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\""
+  },
+  "devDependencies": {
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "eslint": "8.40.0",
+    "eslint-config-custom": "workspace:*",
+    "@products/types": "workspace:*",
+    "react": "18.2.0",
+    "tsconfig": "workspace:*",
+    "typescript": "5.0.4",
+    "@emotion/react": "11.11.0",
+    "@emotion/styled": "11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "5.13.1",
+    "next": "13.4.2"
+  },
+  "dependencies": {}
+}
